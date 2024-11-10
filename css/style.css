@@ -1,0 +1,42 @@
+.first-task-container{
+    display: flex;
+    justify-content: center;
+}
+
+.registration-container {
+  background-color: white;
+  padding: 30px;
+  min-width: 300px;
+  max-width: 600px;
+  width: 50%;
+  text-align: center;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  margin: 12px 0;
+  border: 1px solid gray;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+input.error {
+  border-color: red;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
